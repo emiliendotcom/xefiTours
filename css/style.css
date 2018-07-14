@@ -1,0 +1,440 @@
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Orbitron Regular'), local('Orbitron-Regular'), url(https://fonts.gstatic.com/s/orbitron/v9/yMJRMIlzdpvBhQQL_Qq7dy1biN15.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+body {
+    color: #000000;
+    font-family: "Roboto";
+}
+
+header {
+    width: 100%;
+    background-color: #000000;
+    opacity: 0.9;
+    margin-bottom: 25px;
+    position: relative;
+    z-index: 1000;
+
+}
+
+row,
+#container,
+body,
+header,
+footer,
+main {
+    margin: 0!important;
+    padding: 0!important;
+}
+
+header p {
+    color: white;
+}
+
+#container {
+    position: relative;
+    z-index: 1;
+}
+
+footer img {
+    width: 100%;
+}
+
+header a:hover {
+    text-decoration: none;
+}
+
+header img {
+    width: auto;
+    height: 150px;
+}
+
+img.icone {
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    padding-top: 0;
+}
+
+img.flotte {
+    float: left;
+    margin: 10px;
+}
+
+.menuhaut a {
+    font-size: 2em;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+a.fa {
+    margin-right: 10px;
+}
+footer {
+    background-color: #000000;
+    text-align: center;
+    padding: 20px;
+}
+
+p.marge{
+    margin-top: 20px!important;
+}
+
+
+ul {
+    justify-content: flex-end;
+}
+
+li {
+    list-style-type: none;
+}
+
+li i {
+    font-size: 1.7em;
+}
+
+ul li ul {
+    display: none;
+    opacity: 0;
+    background-color: #fff;
+
+}
+
+ul li:hover ul {
+    display: block;
+    position: absolute;
+    background-color: #a50300;
+    opacity: 1;
+    transition: all 2s ease;
+    padding: 25px;
+}
+
+footer a:hover
+{
+    color: white;
+}
+
+
+#container {
+    margin-top: 10px;
+}
+
+main {
+    padding-bottom: 25px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    text-align: center;
+    font-family: "Orbitron";
+    padding-top: 20px;
+}
+
+.icones img,
+.accueil img {
+    max-width: 100%;
+}
+
+main img {
+    width: 100%;
+}
+
+p.no-indent {
+    text-indent: 0px;
+}
+
+.icones p {
+    text-align: center;
+}
+
+.icones a {
+    color: black;
+}
+
+.image img {
+    width: 100%;
+}
+
+.accueil {
+    text-align: center;
+}
+
+section.red {
+    background-color: #a50300;
+    color: white;
+    padding: 15px;
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+
+section.red p {
+    padding: 15px;
+}
+
+.red hr {
+    background-color: white;
+}
+
+main p {
+    padding-top: 20px;
+    text-indent: 50px;
+}
+
+h1,
+h3 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.bouton {
+    background-color: #004494;
+    color: white;
+    padding: 20px;
+}
+
+.lignerouge {
+    background-color: #a50300;
+    color: white;
+    padding-top: 10px;
+}
+
+#container {
+    padding: 15px;
+}
+
+p .blanc {
+    color: #ffffff;
+}
+
+p .rouge {
+    color: #e61d33;
+}
+
+.red a,
+.lignerouge a {
+    color: white;
+}
+
+.lignerouge a:hover {
+    border-bottom: 1px dashed white;
+}
+
+p.adresse {
+    font-size: 0.8em;
+}
+
+.bouton a {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: #004494;
+}
+
+input[type=submit] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#materiel,
+#maintenance,
+#cloud,
+#print,
+#internet,
+#logiciel,
+#messagerie,
+#sauvegarde,
+#securite,
+#cloudcomputing,
+#infogerance {
+    position: absolute;
+    top: 0;
+    opacity: 0;
+}
+
+#materiel:target,
+#maintenance:target,
+#cloud:target,
+#print:target,
+#internet:target,
+#logiciel:target,
+#messagerie:target,
+#sauvegarde:target,
+#securite:target,
+#cloudcomputing:target,
+#infogerance:target {
+    position: static;
+    opacity: 1;
+    transition: all 1s linear;
+}
+
+button {
+    font-size: 1.3em!important;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+footer a {
+    color: white;
+}
+
+footer p {
+    color: #a50300;
+}
+
+@media screen and (max-width: 1280px) {
+
+    ul.cache3 {
+        display: none;
+    }
+
+}
+
+main a,
+main a:hover {
+    color: #a50300;
+}
+
+.dropdown-menu {
+    background-color: #a50300;
+    width: 100%;
+    margin: 10px;
+    opacity: 0.9;
+}
+
+.form-group {
+        padding: 20px;
+    }
+
+@media screen and (max-width: 700px) {
+    .cache1 {
+        display: none;
+    }
+    .cache2 {
+        display: block;
+    }
+    .footerp {
+        font-size: 1.5em;
+        font-family: "Orbitron";
+    }
+}
+
+@media screen and (min-width: 701px) {
+    .cache1 {
+        display: block;
+    }
+    .cache2 {
+        display: none;
+    }
+    .footerp {
+        font-size: 3em;
+        font-family: "Orbitron";
+    }
+
+
+    .form-group {
+        width: 50%!important;
+        margin: auto!important;
+        padding: 20px;
+    }
+}
+
+label, input
+{
+    color: white;
+    margin: 10px;
+}
+
+i {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.projet
+{
+    font-size: 0.5em;
+}
+
+.formulaire label
+{
+    color: black!important;
+}
+
+.formulaire h3
+{
+    background-color: #a50300!important;
+    padding: 10px!important;
+    color: white;
+}
+
+@media screen and (min-width: 1280px) {
+    .slogan {
+        font-family: "Orbitron";
+        font-size: 2em;
+        transition: all 1s ease;
+    }
+
+    .logo {
+        transition: all 1s ease;
+    }
+
+}
+
+@media screen and (max-width: 1279px) {
+    .slogan {
+        font-family: "Orbitron";
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    p {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+nav.navbar-dark {
+    background-color: #a50300!important;
+    margin: 0!important;
+}
+
+.cool-link {
+    color: #000;
+    text-decoration: none;
+}
+
+.cool-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: width 1s;
+}
+
+.cool-link:hover::after {
+    width: 100%; //transition: width .3s;
+}
+
+footer a:hover{
+    text-decoration: none;
+}
